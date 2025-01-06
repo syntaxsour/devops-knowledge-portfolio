@@ -26,24 +26,28 @@
     * working set size (WSS) <https://en.wikipedia.org/wiki/Working_set_size>
   * shared memory <https://en.wikipedia.org/wiki/Shared_memory>
 * The OSI model <https://en.wikipedia.org/wiki/OSI_model>
-* ARP <https://en.wikipedia.org/wiki/Address_Resolution_Protocol>
-  * MAC address <https://en.wikipedia.org/wiki/MAC_address>
 * The Internet <https://en.wikipedia.org/wiki/Internet>
-* IP <https://en.wikipedia.org/wiki/Internet_Protocol>
-  * Link-local address <https://en.wikipedia.org/wiki/Link-local_address>
-  * IP-multicast <https://en.wikipedia.org/wiki/IP_multicast>
-  * DHCP <https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>
-  * ICMP <https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol>
-  * NAT <https://en.wikipedia.org/wiki/Network_address_translation>
-  * IPv6 <https://en.wikipedia.org/wiki/IPv6>
-    * Unique local address <https://en.wikipedia.org/wiki/Unique_local_address>
-    * DHCPv6 <https://en.wikipedia.org/wiki/DHCPv6>
-    * ICMPv6 <https://en.wikipedia.org/wiki/ICMPv6>
-    * NAT64 <https://en.wikipedia.org/wiki/NAT64> - An IPv6 transition mechanism that facilitates communication between IPv6 and IPv4 hosts
+  * IP <https://en.wikipedia.org/wiki/Internet_Protocol> - The network layer communications protocol in the Internet protocol suite
+    * Link-local address <https://en.wikipedia.org/wiki/Link-local_address>
+    * IP-multicast <https://en.wikipedia.org/wiki/IP_multicast>
+    * DHCP <https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>
+    * ICMP <https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol>
+    * NAT <https://en.wikipedia.org/wiki/Network_address_translation>
+    * IPv6 <https://en.wikipedia.org/wiki/IPv6>
+      * Unique local address <https://en.wikipedia.org/wiki/Unique_local_address>
+      * DHCPv6 <https://en.wikipedia.org/wiki/DHCPv6>
+      * ICMPv6 <https://en.wikipedia.org/wiki/ICMPv6>
+      * NAT64 <https://en.wikipedia.org/wiki/NAT64> - An IPv6 transition mechanism that facilitates communication between IPv6 and IPv4 hosts
+      * NDP <https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol>
   * Routing table <https://en.wikipedia.org/wiki/Routing_table>
     * CIDR <https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing>
   * TCP <https://en.wikipedia.org/wiki/Transmission_Control_Protocol>
   * UDP <https://en.wikipedia.org/wiki/User_Datagram_Protocol>
+  * QUIC <https://quicwg.org/> - A UDP-based, stream-multiplexing, encrypted transport protocol
+* Ethernet <https://en.wikipedia.org/wiki/Ethernet> - A family of wired computer networking technologies
+  * ARP <https://en.wikipedia.org/wiki/Address_Resolution_Protocol>
+    * MAC address <https://en.wikipedia.org/wiki/MAC_address>
+  * VLAN <https://en.wikipedia.org/wiki/VLAN>
 
 ## 210 - Linux administration
 
@@ -154,17 +158,19 @@
 ## 220 - Domain name system and Email
 
 * DNS <https://en.wikipedia.org/wiki/Domain_Name_System>
-  * mDNS <https://en.wikipedia.org/wiki/Multicast_DNS>
   * IANA WHOIS Service <https://www.iana.org/whois>
-  * BIND (dnsutils) <https://www.isc.org/bind/>
+  * Registration Data Access Protocol (RDAP) <https://en.wikipedia.org/wiki/Registration_Data_Access_Protocol>
+  * BIND (dnsutils) <https://www.isc.org/bind/> - Versatile, classic, complete name server software
     * dig <https://linux.die.net/man/1/dig>
     * nslookup <https://linux.die.net/man/1/nslookup>
+  * dnsmasq <https://thekelleys.org.uk/dnsmasq/doc.html> - Provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot
   * CoreDNS <https://coredns.io/> - DNS and Service Discovery
-  * dog <https://dns.lookup.dog/>
-  * Doggo <https://doggo.mrkaran.dev/docs/>
+  * dog <https://github.com/ogham/dog> - A command-line DNS client
+  * Doggo <https://doggo.mrkaran.dev/docs/> - Command-line DNS client for humans
   * systemd-resolved <https://man7.org/linux/man-pages/man8/systemd-resolved.service.8.html>
-  * Avahi <https://www.avahi.org/>
-  * Bonjour <https://developer.apple.com/bonjour/>
+  * mDNS <https://en.wikipedia.org/wiki/Multicast_DNS>
+    * Avahi <https://www.avahi.org/>
+    * Bonjour <https://developer.apple.com/bonjour/>
 * Email <https://en.wikipedia.org/wiki/Email>
   * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
     * Postfix <https://www.postfix.org/> - A mail server that started life at IBM research as an alternative to the widely-used Sendmail program
@@ -187,8 +193,9 @@
     * Sylpheed <https://sylpheed.sraoss.jp/en/> - Lightweight and user-friendly e-mail client
   * Distribution
     * listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
-  * Spam test service
+  * Spam test and repuration
     * mail-tester <https://www.mail-tester.com/> - Test the Spammyness of your Emails
+    * Spamhaus Project <https://www.spamhaus.org/> - The trusted authority on IP and domain reputation
 * PaaS
   * Amazon Route53 <https://aws.amazon.com/route53/>
   * Amazon SES <https://aws.amazon.com/ses/>
@@ -374,26 +381,28 @@
   * Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
   * Azure Storage Exproler <https://azure.microsoft.com/en-us/products/storage/storage-explorer/> - Manage your Azure cloud storage resources from your desktop
   * Google Cloud Storage <https://cloud.google.com/storage/>
+  * Cloud Storage for Firebase <https://firebase.google.com/docs/storage>
+  * Supabase Storage <https://supabase.com/docs/guides/storage> - An open source Firebase alternative
 * File transfers
   * s5cmd <https://github.com/peak/s5cmd>
   * Rclone <https://rclone.org/> - A command-line program to manage files on cloud storage
 
-## 270 - Stress test, load test, chaos engineering, and FinOps
+## 270 - Performance testing, chaos engineering, and FinOps
 
-* ab <https://httpd.apache.org/docs/2.4/programs/ab.html> - Apache HTTP server benchmarking tool
-* stress-ng <https://github.com/ColinIanKing/stress-ng>
-* sysbench <https://github.com/akopytov/sysbench> - Scriptable database and system performance benchmark
-* fio <https://github.com/axboe/fio> - Flexible I/O Tester
-* iPerf <https://iperf.fr/> - The ultimate speed test tool for TCP, UDP and SCTP
-* Load test
+* Performance testing <https://en.wikipedia.org/wiki/Software_performance_testing>
   * Grafana k6 <https://k6.io/>
   * Gatling <https://gatling.io/>
   * Apache Jmeter <https://jmeter.apache.org/>
+  * ab <https://httpd.apache.org/docs/2.4/programs/ab.html> - Apache HTTP server benchmarking tool
+  * stress-ng <https://github.com/ColinIanKing/stress-ng>
+  * sysbench <https://github.com/akopytov/sysbench> - Scriptable database and system performance benchmark
+  * fio <https://github.com/axboe/fio> - Flexible I/O Tester
+  * iPerf <https://iperf.fr/> - The ultimate speed test tool for TCP, UDP and SCTP
 * Chaos engineering <https://en.wikipedia.org/wiki/Chaos_engineering>
   * Principles of chaos engineering <https://principlesofchaos.org/>
   * Litmus <https://litmuschaos.io/> - an open source Chaos Engineering
   * Chaos Mesh <https://chaos-mesh.org/> - an open source cloud-native Chaos Engineering platform
-  * toxiproxy <https://github.com/Shopify/toxiproxy> - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
+  * Toxiproxy <https://github.com/Shopify/toxiproxy> - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
 * FinOps
   * FinOps principles <https://www.finops.org/framework/principles/>
   * FinOps toolkit <https://microsoft.github.io/finops-toolkit/>

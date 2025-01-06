@@ -43,6 +43,8 @@ In June 1994, the IETF published Berners-Lee's first Request for Comments that a
 Netscape Navigator was a proprietary web browser, and the original browser of the Netscape line, from versions 1 to 4.08, and 9.x. It was the flagship product of the Netscape Communications Corp and was the dominant web browser in terms of usage share in the 1990s.
 Initial release: 15 December 1994
 
+The QR code system was invented in 1994, at the Denso Wave automotive products company, in Japan.
+
 The Apache HTTP Server is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation.
 Initial release: 1995
 
@@ -143,6 +145,8 @@ Initial release: October 20, 2010
 Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License.
 Express.js was founded by TJ Holowaychuk. The first release, according to Express.js's GitHub repository, was on 22 May 2010. Version 0.12
 Initial release: 16 November 2010 ?
+
+In December 2010, the first documented description of QR code-based payments came from two patents filed by Shaun Cooley and Andrew Charles Payne, based on a prototype system developed for Norton Labs at Symantec called Norton Mobile Pay.
 
 QUIC is a general-purpose transport layer network protocol initially designed by Jim Roskind at Google, implemented, and deployed in 2012.
 Introduction: October 12, 2012

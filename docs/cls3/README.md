@@ -19,6 +19,8 @@
 * OpenAPI spec <https://www.openapis.org/>
   * Redocly CLI <https://redocly.com/> - Your all-in-one OpenAPI utility
 * CloudEvents <https://cloudevents.io/> - A specification for describing event data in a common way
+* ActivityPub <https://activitypub.rocks/> - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
+* WebRTC <https://webrtc.org/> - A free and open-source project providing web browsers and mobile applications with real-time communication (RTC)
 * API styles
   * REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
   * SOAP <https://en.wikipedia.org/wiki/SOAP>
@@ -58,6 +60,7 @@
   * JS Axios <https://axios-http.com/>
   * Go Resty <https://github.com/go-resty/resty>
   * Go FastHTTP <https://github.com/valyala/fasthttp>
+  * Rust reqwest <https://docs.rs/reqwest/latest/reqwest/>
   * Perl LWP <https://metacpan.org/pod/LWP> (reference)
 
 ## 310 - Web servers, web proxies, and service mesh
@@ -71,8 +74,12 @@
     * CDN <https://en.wikipedia.org/wiki/Content_delivery_network>
     * Point of presence (PoP) <https://en.wikipedia.org/wiki/Point_of_presence>
   * Squid <http://www.squid-cache.org/>
-  * Azure Content Delivery Network <https://azure.microsoft.com/en-us/services/cdn/>
-  * Amazon CloudFront <https://aws.amazon.com/cloudfront/>
+  * CDN providers
+    * Cloudflare <https://www.cloudflare.com/>
+    * Amazon CloudFront <https://aws.amazon.com/cloudfront/>
+      * Lambda@Edge <https://aws.amazon.com/lambda/edge/> - A feature of Amazon CloudFront that lets you run code closer to users of your application
+    * Google Cloud CDN <https://cloud.google.com/cdn>
+    * Azure Content Delivery Network <https://azure.microsoft.com/en-us/services/cdn/>
 * Reverse proxy
   * NGINX <https://www.nginx.com/>
   * HAProxy <https://www.haproxy.org/>
@@ -124,6 +131,8 @@
   * Echo <https://echo.labstack.com/> - High performance, extensible, minimalist Go web framework
   * Gin Web Framework <https://gin-gonic.com/> - A web framework written in Go
   * Gorilla web toolkit <https://www.gorillatoolkit.org/> - A helpful toolkit that provides useful, composable packages for writing HTTP-based applications
+* Rust frameworks (reference)
+  * Leptos <https://leptos.dev/> - A cutting-edge Rust framework for the modern web
 * Perl frameworks (reference)
   * Dancer2 <https://metacpan.org/pod/Dancer2> - Lightweight yet powerful web application framework
   * Mojolicious <https://www.mojolicious.org/> - Perl real-time web framework
@@ -155,6 +164,12 @@
   * Prism <https://prismjs.com> - A lightweight, extensible syntax highlighter, built with modern web standards in mind
   * Pygments <https://pygments.org/> - A generic syntax highlighter suitable for use in code hosting, forums, wikis or other applications that need to prettify source code
   * Rouge <https://rouge.jneen.net/> - An elegant, extendable code highlighter written in pure Ruby
+* UI/UX design tools
+  * Figma Design <https://www.figma.com/> -  A powerful, collaborative design tool for teams
+  * Locofi.ai <https://www.locofy.ai/> - Design to {code} in a flash
+* Human interface guidelines
+  * Apple's <https://developer.apple.com/design/human-interface-guidelines>
+  * GNOME's <https://developer.gnome.org/hig/>
 
 ## 350 - Web application automation and test tools
 
@@ -187,6 +202,8 @@
 
 * Android <https://www.android.com/>
 * iOS <https://www.apple.com/ios/>
+* QR code <https://en.wikipedia.org/wiki/QR_code>
+  * QR code payment <https://en.wikipedia.org/wiki/QR_code_payment>
 * Web-based UI
   * Electron <https://www.electronjs.org/> - A framework for building desktop applications using JavaScript, HTML, and CSS
   * React Native <https://reactnative.dev> - allows developers who know React to create native apps
@@ -195,13 +212,13 @@
 * Notification service
   * Firebase Cloud Messaging <https://firebase.google.com/products/cloud-messaging/>
   * Apple Push Notification service <https://developer.apple.com/notifications/>
-  * Supabase <https://supabase.com/> - An open source Firebase alternative
-* Widget toolkit
-  * tk <http://www.tcl.tk/> - A graphical user interface toolkit
+* GUI/Widget toolkit
+  * Tk <http://www.tcl.tk/> - A graphical user interface toolkit
     * tkinter <https://docs.python.org/3/library/tkinter.html> - The standard Python interface to the Tcl/Tk GUI toolkit
-  * gtk <https://www.gtk.org/>
+  * GTK <https://www.gtk.org/>
     * pygobject <https://pygobject.gnome.org/>
   * Fyne <https://fyne.io/> - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
+  * Slint <https://slint.dev/> - A declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps
 
 ## 390 - Web marketing (reference)
 
@@ -216,9 +233,13 @@
   * Largest Contentful Paint (LCP)
   * Interaction to Next Paint (INP)
   * Cumulative Layout Shift (CLS)
-* Advertisement
-  * Google Ads <https://ads.google.com/home/>
-  * Google AdSence <https://adsense.google.com/start/>
-  * Microsoft Advertising <https://ads.microsoft.com/>
+* Advertising
+  * Indicators
+    * Click through rate <https://en.wikipedia.org/wiki/Click-through_rate>
+    * Conversion rate <https://en.wikipedia.org/wiki/Conversion_marketing#Conversion_rate>
+  * Platforms
+    * Google Ads <https://ads.google.com/home/>
+    * Google AdSence <https://adsense.google.com/start/>
+    * Microsoft Advertising <https://ads.microsoft.com/>
 * Experiment platform
   * Optimizely <https://www.optimizely.com/>

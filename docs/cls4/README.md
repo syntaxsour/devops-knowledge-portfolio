@@ -4,8 +4,10 @@
 
 ## 400 - References for security and privacy
 
-* InfoSec/CIA <https://en.wikipedia.org/wiki/Information_security>
+* Information security <https://en.wikipedia.org/wiki/Information_security>
 * Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
+* Malware <https://en.wikipedia.org/wiki/Malware>
+  * Ransomware <https://en.wikipedia.org/wiki/Ransomware>
 * Certifications, Regulations and Standards
   * NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations
     * AC - Access Control
@@ -53,12 +55,22 @@
   * OWASP Top 10 <https://owasp.org/www-project-top-ten/>
   * OWASP Top 10 for LLM <https://genai.owasp.org/llm-top-10/>
   * OSV (Open Source Vulnerability) <https://osv.dev/>
+    * OSV-scanner <https://google.github.io/osv-scanner/>
   * SSVC (Stakeholder-Specific Vulnerability Categorization) <https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc>
   * KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>
 
 ## 410 - Secure software development
 
-* ATT&CK <https://attack.mitre.org/> - A globally-accessible knowledge base of adversary tactics and techniques
+* NIST SP 800-207: Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
+  * All data sources and computing services are considered resources.
+  * All communication is secured regardless of network location.
+  * Access to individual enterprise resources is granted on a per-session basis.
+  * Access to resources is determined by dynamic policy and may include other behavioral and environmental attributes.
+  * The enterprise monitors and measures the integrity and security posture of all owned and associated assets.
+  * All resource authentication and authorization are dynamic and strictly enforced before access is allowed.
+  * The enterprise collects as much information as possible about the current state of assets, network infrastructure and communications and uses it to improve its security posture.
+* NIST CSF <https://www.nist.gov/cyberframework> - Helping organizations to better understand and improve their management of cybersecurity risk
+* MITRE ATT&CK <https://attack.mitre.org/> - A globally-accessible knowledge base of adversary tactics and techniques
   * Tactics: The high-level objectives or goals that an adversary aims to achieve during an attack.
   * Techniques: The specific methods or ways adversaries achieve their tactical objectives.
   * Procedures: The specific implementations or variations of techniques that adversaries utilize in their operations.
@@ -71,7 +83,7 @@
   * OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
 * STIX (Structured Threat Information Expression) <https://oasis-open.github.io/cti-documentation/stix/intro> - A language and serialization format used to exchange cyber threat intelligence (CTI)
 * Business email compromise (BEC) <https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec>
-* Demonstration
+* Threat demonstration
   * Evilginx <https://github.com/kgretzky/evilginx2> - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
 
 ## 420 - Identity and access management
@@ -101,6 +113,8 @@
   * Kerberos <https://web.mit.edu/kerberos/>
     * MIT Kerberos <https://web.mit.edu/kerberos/new/index.html> - An implementation of the Kerberos network authentication protocol
   * Azure Shared Access Signature (SAS) <https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview>
+  * Firebase Authentication <https://firebase.google.com/docs/auth>
+  * Supabase Auth <https://supabase.com/docs/guides/database/overview> - An open source Firebase alternative
 * Authorization <https://en.wikipedia.org/wiki/Authorization>
   * Access control list (ACL) <https://en.wikipedia.org/wiki/Access-control_list>
   * Role-based access control (RBAC) <https://en.wikipedia.org/wiki/Role-based_access_control>
@@ -108,7 +122,6 @@
   * Athenz <https://www.athenz.io/> - A set of services and libraries supporting service authentication and role-based authorization (RBAC)
   * Permify <https://github.com/Permify/permify> - An open-source authorization as a service inspired by Google Zanzibar
   * Azure RBAC <https://docs.microsoft.com/en-us/azure/role-based-access-control/overview>
-* Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
 * Directory service <https://en.wikipedia.org/wiki/Directory_service>
   * LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
   * OpenLDAP <https://www.openldap.org/>
@@ -154,6 +167,8 @@
   * SOP (Same-origin policy) <https://en.wikipedia.org/wiki/Same-origin_policy>
   * CORS (Cross-Origin Resource Sharing) <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>
   * Fetch Standard <https://fetch.spec.whatwg.org/>
+  * Cross-origin isolation <https://web.dev/articles/cross-origin-isolation-guide>
+  * Privacy sandbox <https://developers.google.com/privacy-sandbox>
   * CSP (Content Security Policy) <https://content-security-policy.com/>
   * HSTS (HTTP Strict Transport Security) <https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security>
   * SNI (Server Name Indication) <https://en.wikipedia.org/wiki/Server_Name_Indication>
@@ -167,6 +182,7 @@
   * DMARC (Domain-based Message Authentication, Reporting & Conformance) <https://dmarc.org/>
   * S/MIME <https://en.wikipedia.org/wiki/S/MIME>
   * OpenPGP/GPG <https://gnupg.org/>
+* Domain Name System Security Extensions (DNSSEC) <https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions>
 
 ## 440 - Static security check
 
@@ -214,16 +230,20 @@
 * Security Information and Event Management (SIEM)
   * Microsoft Sentinel <https://azure.microsoft.com/en-us/products/microsoft-sentinel>
   * Amazon GuardDuty <https://aws.amazon.com/guardduty/>
-  * Sigma Detection Format <https://sigmahq.io/>
-* Auditing
-  * AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
-  * AWS Config <https://aws.amazon.com/config/>
+  * Sigma Detection Format <https://sigmahq.io/> - A way to share detections of malicious or dangerous behaviour among security professionals
+    * chainsaw <https://github.com/cyb3rpeace/chainsaw> - Rapidly Search and Hunt through Windows Event Logs
+  * Auditing
+    * AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
+    * AWS Config <https://aws.amazon.com/config/>
 * WAF and DDos protection
   * AWS WAF <https://aws.amazon.com/waf/>
   * Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
   * AWS Shield <https://aws.amazon.com/shield/>
   * Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
   * fail2ban <https://github.com/fail2ban/fail2ban> - Daemon to ban hosts that cause multiple authentication errors
+  * Snort <https://www.snort.org/> - The foremost Open Source Intrusion Prevention System (IPS) in the world
+* Extended detection and response (XDR) <https://en.wikipedia.org/wiki/Extended_detection_and_response>
+* Endpoint detection and response (EDR) <https://en.wikipedia.org/wiki/Endpoint_detection_and_response>
 
 ## 460 - Other security tools
 

@@ -24,6 +24,7 @@
     * Estimable: You must always be able to estimate the size of a PBI
     * Small: PBIs should not be so big as to become impossible to plan/task/order within a level of accuracy
     * Testable: The PBI or its related description must provide the necessary information to make test development possible
+  * Time management <https://en.wikipedia.org/wiki/Time_management>
   * Prioritization frameworks
     * RICE <https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/>
       * Reach, Impact, Confidence, Effort
@@ -31,6 +32,7 @@
     * MoSCoW method <https://en.wikipedia.org/wiki/MoSCoW_method>
   * A/B testing <https://en.wikipedia.org/wiki/A/B_testing>
   * Feature Toggles <https://martinfowler.com/articles/feature-toggles.html>
+  * Blue-Green Deployment <https://martinfowler.com/bliki/BlueGreenDeployment.html>
     * Canary Release <https://martinfowler.com/bliki/CanaryRelease.html>
   * The Four Keys of DORA <https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance>
     * Deployment Frequency
@@ -73,6 +75,10 @@
 * Social or psychological concerns
   * Broken windows theory <https://en.wikipedia.org/wiki/Broken_windows_theory>
   * Psychological safety <https://en.wikipedia.org/wiki/Psychological_safety>
+  * Situation awareness <https://en.wikipedia.org/wiki/Situation_awareness>
+    * 1: Perception of the elements in the environment.
+    * 2: Comprehension or understanding of the situation.
+    * 3: Projection of future status.
   * Defence mechanism <https://en.wikipedia.org/wiki/Defence_mechanism>
   * Maslow's Hierarchy of Needs <https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs>
   * Cognitive bias <https://en.wikipedia.org/wiki/Cognitive_bias>
@@ -89,9 +95,6 @@
     * 5: Perceiving the state of the world.
     * 6: Interpreting the state of the world.
     * 7: Evaluating the outcome.
-  * Human interface guidelines
-    * Apple's <https://developer.apple.com/design/human-interface-guidelines>
-    * GNOME's <https://developer.gnome.org/hig/>
   * Principle of least astonishment <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>
   * Affordance <https://en.wikipedia.org/wiki/Affordance>
   * Stroop effect <https://en.wikipedia.org/wiki/Stroop_effect>
@@ -101,6 +104,9 @@
   * Mattermost <https://mattermost.com/>
   * Discord <https://discord.com/>
     * discord.js <https://discord.js.org/> - The most popular way to build Discord bots
+* Social networking (federated)
+  * Mastodon <https://joinmastodon.org/>
+  * Lemmy <https://join-lemmy.org/> - A selfhosted social link aggregation and discussion platform
 
 ## 020 - Project and service management
 
@@ -202,6 +208,8 @@
     * PGF/TikZ <https://github.com/pgf-tikz/pgf> - A TeX macro package for generating graphics
   * KaTeX <https://katex.org/> - The fastest math typesetting library for the web
     * sphinxcontrib-katex <https://sphinxcontrib-katex.readthedocs.io/en/>
+* Wiki systems
+  * Ibis <https://ibis.wiki/> - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
 * Content collaboration platform
   * Nextcloud <https://nextcloud.com/>
 
@@ -221,9 +229,15 @@
 * Design principles
   * Orthogonality and DRY principle <https://www.artima.com/intv/dry.html>
   * Separation of concerns <https://en.wikipedia.org/wiki/Separation_of_concerns>
+    * Dependency injection <https://en.wikipedia.org/wiki/Dependency_injection>
   * Design by Contract <https://en.wikipedia.org/wiki/Design_by_contract>
   * Law of Demeter <https://en.wikipedia.org/wiki/Law_of_Demeter>
   * SOLID - The principle of OOD <https://en.wikipedia.org/wiki/SOLID>
+    * Single responsibility
+    * Open–closed
+    * Liskov substitution
+    * Interface segregation
+    * Dependency inversion
   * The Reactive Manifesto <https://www.reactivemanifesto.org/>
   * Unix Philosophy <https://en.wikipedia.org/wiki/Unix_philosophy>
   * Single source of truth <https://en.wikipedia.org/wiki/Single_source_of_truth>
@@ -292,6 +306,11 @@
   * Creative Commons <https://creativecommons.org/>
   * Open Source Initiative <https://opensource.org/>
     * Opensource licenses <https://opensource.org/licenses/>
+      * MIT <https://en.wikipedia.org/wiki/MIT_License>
+      * BSD <https://en.wikipedia.org/wiki/BSD_licenses>
+      * Apache <https://en.wikipedia.org/wiki/Apache_License>
+      * GPL <https://en.wikipedia.org/wiki/GNU_General_Public_License>
+      * LGPL <https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License>
   * Free Software Foundation <https://www.fsf.org/>
   * Apache Software Foundation <https://www.apache.org/>
   * The Open Group <https://www.opengroup.org/>
@@ -324,6 +343,7 @@
     * Option <https://en.wikipedia.org/wiki/Option_(finance)>
   * Cryptcurrency <https://en.wikipedia.org/wiki/Cryptocurrency>
     * Blockchain <https://en.wikipedia.org/wiki/Blockchain> - A distributed ledger with growing lists of records
+      * Bitcoin <https://bitcoin.org/>
 * Financial accounting
   * Return on investment <https://en.wikipedia.org/wiki/Return_on_investment>
   * Cash flow statement <https://en.wikipedia.org/wiki/Cash_flow_statement>
@@ -333,19 +353,23 @@
 * Economics and game theory
   * Market <https://en.wikipedia.org/wiki/Market_(economics)>
   * Inflation <https://en.wikipedia.org/wiki/Inflation>
-  * Nash equilibrium <https://en.wikipedia.org/wiki/Nash_equilibrium>
-  * Pareto efficiency <https://en.wikipedia.org/wiki/Pareto_efficiency>
-  * Braess's paradox <https://en.wikipedia.org/wiki/Braess%27s_paradox>
+  * Information asymmetry <https://en.wikipedia.org/wiki/Information_asymmetry>
   * Induced demand <https://en.wikipedia.org/wiki/Induced_demand>
   * Metcalfe's law <https://en.wikipedia.org/wiki/Metcalfe%27s_law>
-  * Network effect <https://en.wikipedia.org/wiki/Network_effect>
+    * Network effect <https://en.wikipedia.org/wiki/Network_effect>
+  * Braess's paradox <https://en.wikipedia.org/wiki/Braess%27s_paradox>
+  * Nash equilibrium <https://en.wikipedia.org/wiki/Nash_equilibrium>
+  * Pareto efficiency <https://en.wikipedia.org/wiki/Pareto_efficiency>
 
 ## 080 - Mathematics and statistics
 
+* Mathematical model <https://en.wikipedia.org/wiki/Mathematical_model>
 * Formal system <https://en.wikipedia.org/wiki/Formal_system>
 * Propositional calculus <https://en.wikipedia.org/wiki/Propositional_calculus>
+  * conjunction, disjunction, implication, biconditional, and negation
   * Tautology <https://en.wikipedia.org/wiki/Tautology_(logic)>
 * First order logic <https://en.wikipedia.org/wiki/First-order_logic>
+  * universal quantification and existential quantification
 * Elementary algebra <https://en.wikipedia.org/wiki/Elementary_algebra>
   * Equation <https://en.wikipedia.org/wiki/Equation>
 * Linear algebra <https://en.wikipedia.org/wiki/Linear_algebra>

@@ -126,7 +126,13 @@ Sphinx is a documentation generator written and used by the Python community. It
 Sphinx converts reStructuredText files into HTML websites and other formats including PDF, EPub, Texinfo and man.
 Initial release: March 21, 2008
 
+The domain name bitcoin.org was registered on 18 August 2008.
+
+On 31 October 2008, a link to a white paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a cryptography mailing list.
+
 In 2008, Microsoft joined the Apache Software Foundation and co-founded the Open Web Foundation with Google, Facebook, Sun, IBM, Apache, and others.
+
+Nakamoto implemented the bitcoin software as open-source code and released it in January 2009.
 
 DevOps as a term originated in 2009 following a talk at the O’Reilly Velocity Conference titled “10+ Deploys per Day: Dev and Ops Cooperation at Flickr.” John Allspaw and Paul Hammond walked through some of the pains in the current software development lifecycle.
 

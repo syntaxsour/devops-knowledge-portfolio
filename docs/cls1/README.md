@@ -4,74 +4,70 @@
 
 ## 100 - Programming concepts
 
-* code <https://en.wikipedia.org/wiki/Source_code>
-* statement <https://en.wikipedia.org/wiki/Statement_(computer_science)>
-  * control flow <https://en.wikipedia.org/wiki/Control_flow>
-* expression <https://en.wikipedia.org/wiki/Expression_(computer_science)>
-  * operator, operand
-* literal <https://en.wikipedia.org/wiki/Literal_(computer_programming)>
-  * template string/literal
-* constant <https://en.wikipedia.org/wiki/Constant_(computer_programming)>
-* variable <https://en.wikipedia.org/wiki/Variable_(computer_science)>
-* scope <https://en.wikipedia.org/wiki/Scope_(computer_science)>
-* data type <https://en.wikipedia.org/wiki/Data_type>
-  * primitives <https://en.wikipedia.org/wiki/Primitive_data_type>
-  * array <https://en.wikipedia.org/wiki/Array_(data_type)>
-    * slicing <https://en.wikipedia.org/wiki/Array_slicing>
-  * associative array <https://en.wikipedia.org/wiki/Associative_array>
-  * list <https://en.wikipedia.org/wiki/List_(abstract_data_type)>
-  * stack <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>
-  * queue <https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>
-  * string <https://en.wikipedia.org/wiki/String_(computer_science)>
-* generic programming <https://en.wikipedia.org/wiki/Generic_programming>
-* reference <https://en.wikipedia.org/wiki/Reference_(computer_science)>
-  * null pointer <https://en.wikipedia.org/wiki/Null_pointer>
-  * reference counting <https://en.wikipedia.org/wiki/Reference_counting>
-  * garbage collection <https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)>
-  * smart pointer <https://en.wikipedia.org/wiki/Smart_pointer>
-* immutable object <https://en.wikipedia.org/wiki/Immutable_object>
-* function <https://en.wikipedia.org/wiki/Function_(computer_programming)>
-  * parameter <https://en.wikipedia.org/wiki/Parameter_(computer_programming)>
-  * anonymous function <https://en.wikipedia.org/wiki/Anonymous_function>
-  * recursion <https://en.wikipedia.org/wiki/Recursion_(computer_science)>
-* state <https://en.wikipedia.org/wiki/State_(computer_science)>
-* heredoc <https://en.wikipedia.org/wiki/Here_document>
-* exception handling <https://en.wikipedia.org/wiki/Exception_handling_(programming)>
-* cohesion <https://en.wikipedia.org/wiki/Cohesion_(computer_science)>
-* assertion <https://en.wikipedia.org/wiki/Assertion_(software_development)>
+* Code <https://en.wikipedia.org/wiki/Source_code>
+* Statement <https://en.wikipedia.org/wiki/Statement_(computer_science)>
+  * Control flow <https://en.wikipedia.org/wiki/Control_flow>
+* Expression <https://en.wikipedia.org/wiki/Expression_(computer_science)>
+  * Operator, Operand
+* Literal <https://en.wikipedia.org/wiki/Literal_(computer_programming)>
+  * Template string/literal
+* Constant <https://en.wikipedia.org/wiki/Constant_(computer_programming)>
+* Variable <https://en.wikipedia.org/wiki/Variable_(computer_science)>
+* Scope <https://en.wikipedia.org/wiki/Scope_(computer_science)>
+* Data type <https://en.wikipedia.org/wiki/Data_type> (-> see also Class 190)
+  * Primitives <https://en.wikipedia.org/wiki/Primitive_data_type>
+  * String <https://en.wikipedia.org/wiki/String_(computer_science)>
+  * Array <https://en.wikipedia.org/wiki/Array_(data_type)>
+    * Array slicing <https://en.wikipedia.org/wiki/Array_slicing>
+  * Associative array <https://en.wikipedia.org/wiki/Associative_array>
+* Generic programming <https://en.wikipedia.org/wiki/Generic_programming>
+* Reference <https://en.wikipedia.org/wiki/Reference_(computer_science)>
+  * Null pointer <https://en.wikipedia.org/wiki/Null_pointer>
+  * Reference counting <https://en.wikipedia.org/wiki/Reference_counting>
+  * Garbage collection <https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)>
+  * Smart pointer <https://en.wikipedia.org/wiki/Smart_pointer>
+* Immutable object <https://en.wikipedia.org/wiki/Immutable_object>
+* Function <https://en.wikipedia.org/wiki/Function_(computer_programming)>
+  * Parameter <https://en.wikipedia.org/wiki/Parameter_(computer_programming)>
+  * Anonymous function <https://en.wikipedia.org/wiki/Anonymous_function>
+* State <https://en.wikipedia.org/wiki/State_(computer_science)>
+* Heredoc <https://en.wikipedia.org/wiki/Here_document>
+* Exception handling <https://en.wikipedia.org/wiki/Exception_handling_(programming)>
+* Cohesion <https://en.wikipedia.org/wiki/Cohesion_(computer_science)>
+* Assertion <https://en.wikipedia.org/wiki/Assertion_(software_development)>
 * Object-oriented programming
-  * abstraction <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>
-  * encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
-  * polymorphism <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
-    * dynamic dispatch <https://en.wikipedia.org/wiki/Dynamic_dispatch>
-  * inheritance <https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>
-  * class <https://en.wikipedia.org/wiki/Class_(computer_programming)>
-  * interface <https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)>
-  * method <https://en.wikipedia.org/wiki/Method_(computer_programming)>
-  * this keyword <https://en.wikipedia.org/wiki/This_(computer_programming)>
-  * duck typing <https://en.wikipedia.org/wiki/Duck_typing>
-  * covariance and contravariance <https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>
-  * passive data structure <https://en.wikipedia.org/wiki/Passive_data_structure>
+  * Abstraction <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>
+  * Encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
+  * Polymorphism <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
+    * Dynamic dispatch <https://en.wikipedia.org/wiki/Dynamic_dispatch>
+  * Inheritance <https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>
+  * Class <https://en.wikipedia.org/wiki/Class_(computer_programming)>
+  * Interface <https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)>
+  * Method <https://en.wikipedia.org/wiki/Method_(computer_programming)>
+  * This keyword <https://en.wikipedia.org/wiki/This_(computer_programming)>
+  * Duck typing <https://en.wikipedia.org/wiki/Duck_typing>
+  * Covariance and contravariance <https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>
+  * Passive data structure <https://en.wikipedia.org/wiki/Passive_data_structure>
 * Concurrent programming
-  * coroutine <https://en.wikipedia.org/wiki/Coroutine>
-  * async/await <https://en.wikipedia.org/wiki/Async/await>
-  * futures and promises <https://en.wikipedia.org/wiki/Futures_and_promises>
-  * semaphore <https://en.wikipedia.org/wiki/Semaphore_(programming)>
-  * mutex <https://en.wikipedia.org/wiki/Lock_(computer_science)>
-  * channel <https://en.wikipedia.org/wiki/Channel_(programming)>
-  * thread safety <https://en.wikipedia.org/wiki/Thread_safety>
-  * deadlock <https://en.wikipedia.org/wiki/Deadlock>
+  * Coroutine <https://en.wikipedia.org/wiki/Coroutine>
+  * Async/await <https://en.wikipedia.org/wiki/Async/await>
+  * Futures and promises <https://en.wikipedia.org/wiki/Futures_and_promises>
+  * Semaphore <https://en.wikipedia.org/wiki/Semaphore_(programming)>
+  * Mutex <https://en.wikipedia.org/wiki/Lock_(computer_science)>
+  * Channel <https://en.wikipedia.org/wiki/Channel_(programming)>
+  * Thread safety <https://en.wikipedia.org/wiki/Thread_safety>
+  * Deadlock <https://en.wikipedia.org/wiki/Deadlock>
 * Functional programming <https://en.wikipedia.org/wiki/Functional_programming>
-  * first-class function <https://en.wikipedia.org/wiki/First-class_function>
-    * map <https://en.wikipedia.org/wiki/Map_(higher-order_function)>
-    * filter <https://en.wikipedia.org/wiki/Filter_(higher-order_function)>
-    * reduce <https://en.wikipedia.org/wiki/Fold_(higher-order_function)>
-  * referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
-  * lambda calculus <https://en.wikipedia.org/wiki/Lambda_calculus>
-  * closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>
-  * side-effect <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>
-  * monad <https://en.wikipedia.org/wiki/Monad_(functional_programming)>
-  * currying <https://en.wikipedia.org/wiki/Currying>
+  * First-class function <https://en.wikipedia.org/wiki/First-class_function>
+    * Map <https://en.wikipedia.org/wiki/Map_(higher-order_function)>
+    * Filter <https://en.wikipedia.org/wiki/Filter_(higher-order_function)>
+    * Reduce <https://en.wikipedia.org/wiki/Fold_(higher-order_function)>
+  * Referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
+  * Lambda calculus <https://en.wikipedia.org/wiki/Lambda_calculus>
+  * Closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>
+  * Side-effect <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>
+  * Monad <https://en.wikipedia.org/wiki/Monad_(functional_programming)>
+  * Currying <https://en.wikipedia.org/wiki/Currying>
 * Program analysys
   * Hoare logic <https://en.wikipedia.org/wiki/Hoare_logic>
   * Curry-Howard correspondence <https://en.wikipedia.org/wiki/Curry–Howard_correspondence>
@@ -79,12 +75,12 @@
 ## 110 - Shell and terminal
 
 * Bash <https://www.gnu.org/software/bash/>
-  * line editing <https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html>
-  * history <https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html>
-  * shell expansions <https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html>
-  * pipelines <https://www.gnu.org/software/bash/manual/html_node/Pipelines.html>
-  * special variables <https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html>
-  * built-in job control <https://www.gnu.org/software/bash/manual/html_node/Job-Control.html>
+  * Line editing <https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html>
+  * History <https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html>
+  * Shell expansions <https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html>
+  * Pipelines <https://www.gnu.org/software/bash/manual/html_node/Pipelines.html>
+  * Special variables <https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html>
+  * Built-in job control <https://www.gnu.org/software/bash/manual/html_node/Job-Control.html>
   * oh-my-bash <https://ohmybash.nntoan.com/> - An open source, community-driven framework for managing your BASH configuration
 * Zsh <https://www.zsh.org/> - A shell designed for interactive use, although it is also a powerful scripting language
   * Zim Framework <https://zimfw.sh/> - The Zsh configuration framework with blazing speed and modular extensions
@@ -234,7 +230,7 @@
 
 ## 130 - Programming language features
 
-* Bash (see 110)
+* Bash (-> see Class 110)
 * Perl <https://www.perl.org/>
   * special variables <https://metacpan.org/dist/perl/view/pod/perlvar.pod>
   * built-in regex <https://metacpan.org/dist/perl/view/pod/perlre.pod>
@@ -318,12 +314,13 @@
   * Java <https://www.oracle.com/java/>
   * Scala (for Gatling) <https://www.scala-lang.org/>
   * Groovy (for Jenkins/Gradle) <http://groovy-lang.org/>
-  * Lua (for NGINX/Neovim) <https://www.lua.org/>
-  * Haskell <https://www.haskell.org/>
-  * Elm <https://elm-lang.org/>
   * C <https://www.open-std.org/jtc1/sc22/wg14/>
   * Emacs Lisp <https://www.gnu.org/software/emacs/manual/html_node/elisp/>
-  * zx <https://google.github.io/zx/>
+  * Lua (for NGINX/Neovim) <https://www.lua.org/> - A powerful, efficient, lightweight, embeddable scripting language
+  * Haskell <https://www.haskell.org/> - An advanced, purely functional programming language
+  * Elm <https://elm-lang.org/> - A delightful language for reliable web applications
+  * zx <https://google.github.io/zx/> - A tool for writing better scripts
+  * Zig <https://ziglang.org/> - A general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
 * Coding style guides
   * Google Style Guides <https://google.github.io/styleguide/>
   * JS Project Guidelines <https://github.com/elsewhencode/project-guidelines>
@@ -413,6 +410,7 @@
   * Perl HTML::Template <https://metacpan.org/pod/HTML::Template>
   * Template Toolkit <https://template-toolkit.org/> - A fast, flexible and highly extensible template processing system
   * ERB <https://github.com/ruby/erb> - An easy to use but powerful templating system for Ruby
+  * Liquid <https://shopify.github.io/liquid/> - Safe, customer-facing template language for flexible web apps
   * envsubst in gettext <https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation>
 * CEL <https://cel.dev/> - A general-purpose expression language designed to be fast, portable, and safe to execute
 * CUE <https://cuelang.org/> - An open-source data validation language and inference engine with its roots in logic programming
@@ -682,3 +680,28 @@
   * gosseract OCR <https://github.com/otiai10/gosseract> - Golang OCR package, by using Tesseract C++ library
   * OCRmyPDF <https://ocrmypdf.readthedocs.io/en/latest/>
   * EasyOCR <https://github.com/JaidedAI/EasyOCR>
+
+## 190 - Algorithms and data structures
+
+* Algorithm
+  * Amortized analysis <https://en.wikipedia.org/wiki/Amortized_analysis>
+  * Recursion <https://en.wikipedia.org/wiki/Recursion_(computer_science)>
+  * Divide and conquer <https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm>
+  * Dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>
+  * Backtracking <https://en.wikipedia.org/wiki/Backtracking>
+  * Tarjan's strongly connected components algorithm <https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm>
+  * Cuckoo hashing <https://en.wikipedia.org/wiki/Cuckoo_hashing>
+* Data structure <https://en.wikipedia.org/wiki/Data_structure>
+  * Hash table <https://en.wikipedia.org/wiki/Hash_table>
+  * Linked data structure <https://en.wikipedia.org/wiki/Linked_data_structure>
+  * Stack <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>
+  * Queue <https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>
+  * Persistent structure <https://en.wikipedia.org/wiki/Persistent_data_structure>
+  * Tree <https://en.wikipedia.org/wiki/Tree_(abstract_data_type)>
+    * Search tree <https://en.wikipedia.org/wiki/Search_tree>
+    * Heap <https://en.wikipedia.org/wiki/Heap_(data_structure)>
+    * Trie <https://en.wikipedia.org/wiki/Trie>
+    * Fenwick tree <https://en.wikipedia.org/wiki/Fenwick_tree>
+  * Graph <https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>
+    * Directed acyclic graph (DAG) <https://en.wikipedia.org/wiki/Directed_acyclic_graph>
+* NIST Dictionary of Algorithms and Data Structures <https://xlinux.nist.gov/dads/>

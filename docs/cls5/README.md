@@ -48,6 +48,7 @@
   * NetworkX <https://networkx.org/>
 * Visualization apps
   * Kibana <https://www.elastic.co/kibana>
+    * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
   * Power BI <https://www.microsoft.com/en-us/power-platform/products/power-bi/>
   * Amazon QuickSight <https://aws.amazon.com/quicksight/>
 * Visualization tools and libraries
@@ -73,9 +74,12 @@
   * Object-relational mapping <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>
     * Prisma <https://www.prisma.io/>
     * Hibernate <https://hibernate.org/orm/>
+    * Diesel <https://diesel.rs/> - A Safe, Extensible ORM and Query Builder for Rust
   * PostgreSQL <https://www.postgresql.org/>
     * pgAdmin <https://www.pgadmin.org/>
     * pgBadger <https://pgbadger.darold.net/>
+  * PGlite <https://pglite.dev/> - A WASM Postgres build packaged into a TypeScript/JavaScript client library, that enables you to run Postgres in the browser, Node.js and Bun
+  * Supabase Database <https://supabase.com/docs/guides/database/overview> - An open source Firebase alternative
   * MySQL <https://www.mysql.com/>
   * MariaDB <https://mariadb.org/>
   * TiDB <https://www.pingcap.com/tidb/> - An open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads
@@ -91,24 +95,34 @@
   * SQLite <https://www.sqlite.org/index.html>
     * DB Browser for SQLite <https://sqlitebrowser.org/>
 * NoSQL databases
-  * ElasticSearch <https://www.elastic.co/elasticsearch/> - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
-    * Apache Lucene <https://lucene.apache.org/> - A Java library providing powerful indexing and search features
-    * Painless <https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html> - A simple, secure scripting language designed specifically for use with Elasticsearch
-    * Kibana <https://www.elastic.co/kibana>
-      * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
-  * MongoDB <https://www.mongodb.com/>
-  * Redis <https://redis.io/>
-  * Dragonfly <https://www.dragonflydb.io/> - A drop-in Redis replacement
-  * etcd <https://etcd.io/>
-  * Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
-  * Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
-  * Google Cloud Bigtable <https://cloud.google.com/bigtable/>
-  * Neo4j <https://neo4j.com/>
-  * Amazon Neptune <https://aws.amazon.com/neptune/>
-  * Apache Cassandra <https://cassandra.apache.org/> - An open source NoSQL distributed database
-  * Apache HBase <https://hbase.apache.org/> - The Hadoop database, a distributed, scalable, big data store
-  * Weaviate <https://weaviate.io/> - An open-source vector database that simplifies the development of AI applications
-  * Milvus <https://zilliz.com/what-is-milvus> - A high-performance open-source vector database built to handle billions of vectors
+  * Generic
+    * Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
+    * Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
+  * Document
+    * MongoDB <https://www.mongodb.com/> - A document database designed for ease of application development and scaling
+    * Cloud Firestore <https://firebase.google.com/docs/firestore> - A cloud-hosted, NoSQL database that your Apple, Android, and web apps can access directly via native SDKs
+  * Search and analytics
+    * ElasticSearch <https://www.elastic.co/elasticsearch/> - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
+      * Apache Lucene <https://lucene.apache.org/> - A Java library providing powerful indexing and search features
+      * Painless <https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html> - A simple, secure scripting language designed specifically for use with Elasticsearch
+  * In-memory
+    * Redis <https://redis.io/> - An in-memory data store used by millions of developers as a cache, vector database, document database, streaming engine
+    * Dragonfly <https://www.dragonflydb.io/> - A drop-in Redis replacement
+  * Key-value
+    * etcd <https://etcd.io/> - A distributed, reliable key-value store for the most critical data of a distributed system
+  * Graph
+    * Neo4j <https://neo4j.com/> - High-speed graph database with unbounded scale, security, and data integrity
+    * Amazon Neptune <https://aws.amazon.com/neptune/>
+  * Wide-columns
+    * Apache Cassandra <https://cassandra.apache.org/> - An open source NoSQL distributed database
+    * Apache HBase <https://hbase.apache.org/> - The Hadoop database, a distributed, scalable, big data store
+    * Google Cloud Bigtable <https://cloud.google.com/bigtable/>
+  * Vector
+    * pgvector <https://github.com/pgvector/pgvector>
+    * ElasticSearch vector database <https://www.elastic.co/elasticsearch/vector-database>
+    * Weaviate <https://weaviate.io/> - An open-source vector database that simplifies the development of AI applications
+    * Milvus <https://zilliz.com/what-is-milvus> - A high-performance open-source vector database built to handle billions of vectors
+    * Chroma <https://www.trychroma.com/> - The AI-native open-source embedding database
 
 ## 530 - Distributed processing, analytics, and application integration
 
@@ -158,7 +172,6 @@
     * Markov decision process <https://en.wikipedia.org/wiki/Markov_decision_process>
     * Multi-armed bandit <https://en.wikipedia.org/wiki/Multi-armed_bandit>
     * Value function <https://en.wikipedia.org/wiki/Value_function>
-  * Dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>
   * Early stopping <https://en.wikipedia.org/wiki/Early_stopping>
 * Classification <https://en.wikipedia.org/wiki/Statistical_classification>
   * Logistic regression <https://en.wikipedia.org/wiki/Logistic_regression>
@@ -256,6 +269,7 @@
   * Tavily Search <https://tavily.com/> - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
   * Semantic Kernel <https://learn.microsoft.com/en-us/semantic-kernel/overview/> - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
   * LiteLLM <https://www.litellm.ai/> - Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format
+  * Chatbot Arena <https://lmarena.ai/> - Free AI Chat to Compare & Test Best AI Chatbots
 * Model visualization
   * AttentionViz <https://catherinesyeh.github.io/attn-docs/> - A Global View of Transformer Attention
   * BertViz <https://github.com/jessevig/bertviz> - Visualize Attention in NLP Models
