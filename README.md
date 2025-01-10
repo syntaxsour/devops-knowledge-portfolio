@@ -10,12 +10,12 @@ The descriptions are mainly quoted from the [Wikipedia English version](https://
 
 The contents consist of the following 6 major classes as of now, and they are classified like [Dewey Decimal Classification](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification) system.
 
-- [Class 000 - Agile, management, and general works](docs/cls0/README.md)
-- [Class 100 - Programming](docs/cls1/README.md)
-- [Class 200 - Infrastructure and cloud](docs/cls2/README.md)
-- [Class 300 - Web and app development](docs/cls3/README.md)
-- [Class 400 - Security and privacy](docs/cls4/README.md)
-- [Class 500 - Data, ML, and LLM](docs/cls5/README.md)
+- [Class 000 - Agile, management, and general works](website/docs/maps/cls0.md)
+- [Class 100 - Programming](website/docs/maps/cls1.md)
+- [Class 200 - Infrastructure and cloud](website/docs/maps/cls2.md)
+- [Class 300 - Web and app development](website/docs/maps/cls3.md)
+- [Class 400 - Security and privacy](website/docs/maps/cls4.md)
+- [Class 500 - Data, ML, and LLM](website/docs/maps/cls5.md)
 
 Thanks to today's LLMs trained by useful open documents and texts, you will be able to learn the details of the skills with the AI chatbots.
 

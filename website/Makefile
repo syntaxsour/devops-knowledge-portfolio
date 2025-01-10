@@ -1,7 +1,7 @@
 default:
-	node -v; npm -v; yarn -v
+	node -v; yarn -v
 	yarn install
-	yarn run build
+	yarn build
 	ls -l build/
 
 clean:
