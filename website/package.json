@@ -24,7 +24,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.7.0",
-    "@docusaurus/types": "3.7.0"
+    "@docusaurus/types": "3.7.0",
+    "markmap-cli": "^0.18.8"
   },
   "browserslist": {
     "production": [

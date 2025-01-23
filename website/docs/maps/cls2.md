@@ -63,9 +63,6 @@
   * [named pipe](https://man7.org/linux/man-pages/man7/fifo.7.html)
   * [unix domain socket](https://man7.org/linux/man-pages/man7/unix.7.html)
   * [socket](https://man7.org/linux/man-pages/man7/socket.7.html)
-  * [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html)
-  * [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html)
-  * [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html)
   * Filesystems
     * [ext4](https://en.wikipedia.org/wiki/Ext4)
     * [xfs](https://en.wikipedia.org/wiki/XFS)
@@ -73,9 +70,9 @@
     * [proc pseudo-filesystem](https://man7.org/linux/man-pages/man5/proc.5.html)
     * [sysfs pseudo-filesystem](https://man7.org/linux/man-pages/man5/sysfs.5.html)
 * [linux-pam](https://github.com/linux-pam/linux-pam)
-* [kvm](https://www.linux-kvm.org/page/Main_Page)
-* [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/)
-* [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse)
+* [KVM](https://www.linux-kvm.org/page/Main_Page) - A full virtualization solution for Linux on x86 hardware containing virtualization extensions
+* [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - A revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context
+* [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - An interface for userspace programs to export a filesystem to the Linux kernel
   * [s3fs](https://github.com/s3fs-fuse/s3fs-fuse)
 * [Systemd](https://www.freedesktop.org/wiki/Software/systemd/)
   * [journald](https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.html#)
@@ -209,7 +206,11 @@
 
 ## 230 - Linux container and WebAssembly
 
-* [The Open Container Initiative (OCI)](https://opencontainers.org/)
+* Key Linux kernel features
+  * [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html)
+  * [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html)
+  * [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html)
+* [The Open Container Initiative (OCI)](https://opencontainers.org/) - An open governance structure for the express purpose of creating open industry standards around container formats and runtimes
 * Container runtimes and tools
   * [Docker Engine](https://docs.docker.com/engine/)
     * [docker-compose](https://docs.docker.com/compose/)
@@ -227,13 +228,14 @@
   * [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3)
   * [Amazon ECR](https://aws.amazon.com/ecr/)
   * [Azure Container Registry](https://azure.microsoft.com/en-us/services/container-registry/)
-  * [Harbor](https://goharbor.io/) - an open source registry that secures artifacts with policies and role-based access control
-* [WebAssembly](https://webassembly.org/)
-  * [WebAssembly System Interface (WASI)](https://github.com/WebAssembly/WASI)
+  * [Harbor](https://goharbor.io/) - An open source registry that secures artifacts with policies and role-based access control
+* [WebAssembly](https://webassembly.org/) - A binary instruction format for a stack-based virtual machine
+  * [WebAssembly System Interface (WASI)](https://github.com/WebAssembly/WASI) - A set of APIs for WASI being developed for eventual standardization
+  * [WASIX](https://wasix.org/) - The long term stabilization and support of the existing WASI ABI plus additional non-invasive syscall extensions
 * WebAssembly runtimes
-  * [wazero](https://wazero.io/)
-  * [wasmtime](https://wasmtime.dev/)
-  * [wasmer](https://wasmer.io/)
+  * [wazero](https://wazero.io/) - The only zero dependency WebAssembly runtime written in Go
+  * [Wasmtime](https://wasmtime.dev/) - A fast and secure runtime for WebAssembly
+  * [Wasmer](https://wasmer.io/) - A blazing fast and secure WebAssembly runtime that enables incredibly lightweight containers to run anywhere
 
 ## 240 - Kubernetes
 

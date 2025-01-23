@@ -1,4 +1,4 @@
-image: node:22-alpine
+image: jimyoshida/node-make-extra
 
 stages:
   - test
@@ -9,7 +9,8 @@ test:
   script:
   - cd website
   - yarn install
-  - yarn build
+  - make usr
+  - make
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
@@ -18,7 +19,8 @@ pages:
   script:
   - cd website
   - yarn install
-  - yarn build
+  - make usr
+  - make
   - mv ./build ../public
   artifacts:
     paths:

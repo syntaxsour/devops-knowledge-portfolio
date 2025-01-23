@@ -74,7 +74,7 @@
 
 ## 110 - Shell and terminal
 
-* [Bash](https://www.gnu.org/software/bash/)
+* [Bash](https://www.gnu.org/software/bash/) - An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh)
   * [Line editing](https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html)
   * [History](https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html)
   * [Shell expansions](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
@@ -93,6 +93,7 @@
   * [nushell](https://www.nushell.sh/) - A new type of shell
 * Shell utilities
   * [coreutils](https://www.gnu.org/software/coreutils/) = fileutils+textutils+shellutils
+  * [busybox](https://busybox.net/about.html) - combines tiny versions of many common UNIX utilities into a single small executable
   * [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
   * [bash-completion](https://github.com/scop/bash-completion)
   * [GNU parallel](https://www.gnu.org/software/parallel/) - A shell tool for executing jobs in parallel using one or more computers
@@ -104,14 +105,14 @@
   * [Kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator
   * [WezTerm](https://wezfurlong.org/wezterm/) - A powerful cross-platform terminal emulator and multiplexer
   * [Alacritty](https://alacritty.org/) - A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration
-  * [Windows Terminal](https://github.com/microsoft/terminal)
-  * [Mintty](https://mintty.github.io/)
-  * [xterm](https://invisible-island.net/xterm/)
+  * [Windows Terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host
+  * [Mintty](https://mintty.github.io/) - A terminal emulator for Cygwin, MSYS or Msys2, and derived projects, and for WSL
+  * [xterm](https://invisible-island.net/xterm/) - A terminal emulator for the X Window System
 * Terminal utilities
-  * [screen](https://www.gnu.org/software/screen/)
-  * [tmux](https://github.com/tmux/tmux/wiki)
-  * [byobu](https://www.byobu.org/)
-  * [zellij](https://zellij.dev/)
+  * [screen](https://www.gnu.org/software/screen/) - A full-screen window manager that multiplexes a physical terminal between several processes
+  * [tmux](https://github.com/tmux/tmux/wiki) - A terminal multiplexer
+  * [byobu](https://www.byobu.org/) - A GPLv3 open source text-based window manager and terminal multiplexer
+  * [zellij](https://zellij.dev/) - A terminal workspace with batteries included
   * [asciinema](https://asciinema.org/) - recording terminal sessions and sharing them on the web
 * Terminal interfaces
   * [pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal)
@@ -362,7 +363,7 @@
   * [Python tabulate](https://github.com/astanin/python-tabulate) - Pretty-print tabular data in Python, a library and a command-line utility
   * [Text::MarkdownTable](https://metacpan.org/pod/Text::MarkdownTable)
 * Data exchange languages
-  * [JSON](https://www.json.org/json-en.html)
+  * [JSON](https://www.json.org/json-en.html) - A lightweight data-interchange format
     * [jq](https://stedolan.github.io/jq/) - A lightweight and flexible command-line JSON processor
     * [gojq](https://github.com/itchyny/gojq)
     * [JMESPath](https://jmespath.org/)
@@ -370,21 +371,22 @@
     * [Python json](https://docs.python.org/3/library/json.html)
     * [fx](https://fx.wtf/) - Terminal JSON viewer & processor
     * [jnv](https://github.com/ynqa/jnv) - Interactive JSON filter using jq
-  * [XML](https://www.w3.org/XML/)
+  * [XML](https://www.w3.org/XML/) - A simple, very flexible text format derived from SGML (ISO 8879)
     * [XPath](https://www.w3.org/TR/xpath/)
     * [DOM](https://dom.spec.whatwg.org/)
     * [Python xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
+  * [logfmt](https://brandur.org/logfmt) - An important property for any good logging format
 * Configuration languages
   * [Jsonnet](https://jsonnet.org/) - A configuration language for app and tool developers
   * [Hjson](https://hjson.github.io/) - A user interface for JSON
-  * [YAML](https://yaml.org/)
+  * [YAML](https://yaml.org/) - A human-friendly data serialization language for all programming languages
     * [yq (python)](https://github.com/kislyuk/yq)
     * [yq (go)](https://github.com/mikefarah/yq)
     * [YAML::Tiny](https://metacpan.org/pod/YAML::Tiny)
     * [PyYAML](https://github.com/yaml/pyyaml)
   * [StrictYAML](https://hitchdev.com/strictyaml/) - A type-safe YAML parser that parses and validates a restricted subset of the YAML specification
     * [The Norway Problem](https://hitchdev.com/strictyaml/why/implicit-typing-removed/) - why StrictYAML refuses to do implicit typing and so should you
-  * [TOML](https://toml.io/en/)
+  * [TOML](https://toml.io/en/) - A minimal configuration file format that's easy to read
     * [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny)
     * [Python tomllib](https://docs.python.org/3/library/tomllib.html)
 * [yj](https://github.com/sclevine/yj) - CLI - Convert between YAML, TOML, JSON, and HCL
@@ -521,10 +523,11 @@
     * [musl libc](https://musl.libc.org/)
 * [Runtime system](https://en.wikipedia.org/wiki/Runtime_system)
   * Javascript
-    * [Node.js](https://nodejs.org/)
-      * [PM2](https://pm2.keymetrics.io/)
-    * [Deno](https://deno.land/)
-    * [Bun](https://bun.sh/)
+    * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
+      * [PM2](https://pm2.keymetrics.io/) - a daemon process manager that will help you manage and keep your application online
+    * [Deno](https://deno.land/) - The open-source runtime for TypeScript and JavaScript
+    * [Bun](https://bun.sh/) - An all-in-one toolkit for JavaScript and TypeScript apps
+    * [WinterJS](https://github.com/wasmerio/winterjs) - Blazing-fast JavaScript server that runs Service Workers scripts
   * Python
     * CPython (default)
     * [pypy](https://www.pypy.org/)

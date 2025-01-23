@@ -84,14 +84,14 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Home',
                 to: '/docs/intro',
               },
             ],
           },
           {
             title: 'Community',
-            items: [
+            items: [/*
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
@@ -104,19 +104,19 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
               },
-            ],
+            */],
           },
           {
             title: 'More',
-            items: [
+            items: [/*
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
-            ],
+            */],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyleft ${new Date().getFullYear()} Jim Yoshida. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
