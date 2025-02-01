@@ -131,18 +131,19 @@
     * [mrjob](https://mrjob.readthedocs.io/en/latest/) - The easiest route to writing Python programs that run on Hadoop
   * [Apache Spark](https://spark.apache.org/) - Unified engine for large-scale data analytics
   * [RAY](https://www.ray.io/) - An open-source unified compute framework that makes it easy to scale AI and Python workloads
-* Analytics
+* Analytics platform
   * [Apache Hive](https://hive.apache.org/) - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale
   * [Presto](https://prestodb.io/) - Fast and Reliable SQL Engine
   * [Trino](https://trino.io/) - A distributed SQL query engine designed to query large data sets
   * [Amazon EMR](https://aws.amazon.com/emr/)
   * [Amazon RedShift](https://aws.amazon.com/redshift/)
   * [Amazon Athena](https://aws.amazon.com/athena/)
-  * [Microsoft Fablic](https://www.microsoft.com/en-us/microsoft-fabric)
-  * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/)
-  * [Google Cloud BigQuery](https://cloud.google.com/bigquery)
+  * [Databricks](https://www.databricks.com/product/data-intelligence-platform) - allows your entire organization to use data and AI
+  * [Microsoft Fablic](https://www.microsoft.com/en-us/microsoft-fabric) - An end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence
+  * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - An enterprise analytics service that accelerates time to insight across data warehouses and big data systems
+  * [Google Cloud BigQuery](https://cloud.google.com/bigquery) - A fully managed, AI-ready data analytics platform that helps you maximize value from your data and is designed to be multi-engine, multi-format, and multi-cloud
 * Full-fledged ETL
-  * [Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/)
+  * [Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/) - Azure's cloud ETL service for scale-out serverless data integration and data transformation
   * [AWS Glue](https://aws.amazon.com/glue/)
   * [Apache NiFi](https://nifi.apache.org/)
 * Real-time streaming
@@ -265,7 +266,7 @@
   * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative.
 * Tools and platforms
   * [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
-  * [Dify] (https://dify.ai/) - An open-source LLM app development platform
+  * [Dify](https://dify.ai/) - An open-source LLM app development platform
   * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
   * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
   * [LangGraph](https://langchain-ai.github.io/langgraph/) - A library for building stateful, multi-actor applications with LLMs, used to create agent and multi-agent workflows

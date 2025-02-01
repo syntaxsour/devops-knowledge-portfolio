@@ -206,3 +206,5 @@ In May 2021, the IETF standardized QUIC in RFC 9000.
 QUIC support in Firefox arrived in May 2021.
 
 HTTP/3, the successor to HTTP/2, was published in 2022.
+
+Deno 2 was announced on October 9, 2024.

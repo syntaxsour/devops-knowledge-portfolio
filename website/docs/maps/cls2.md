@@ -185,7 +185,7 @@
   * [mailutils](https://mailutils.org/) - A set of libraries and utilities for handling electronic mail
     * [mail command](https://mailutils.org/manual/html_section/mail.html)
   * [Mutt](http://www.mutt.org/) - A small but very powerful text based program for reading and sending electronic mail under unix operating systems
-  * [charm_Pop](https://github.com/charmbracelet/pop) - Send emails from your terminal
+  * [Pop](https://github.com/charmbracelet/pop) - Send emails from your terminal
   * Receivers and readers
     * Unix Mbox and Maildir formats
     * [POP](https://en.wikipedia.org/wiki/Post_Office_Protocol)
@@ -258,6 +258,8 @@
   * container runtime - responsible for managing container images and running containers on that node
 * Standards
   * CNI (Container Networking Interface)
+    * [Calico](https://docs.tigera.io/calico/latest/about/) - A networking and security solution that enables Kubernetes workloads and non-Kubernetes/legacy workloads to communicate seamlessly and securely
+    * [Cilium](https://cilium.io/) - An open source, cloud native solution for providing, securing, and observing network connectivity between workloads, fueled by the revolutionary Kernel technology eBPF
   * CSI (Container Storage Interface)
   * CRI (Container Runtime Interface)
     * [cri-o](https://cri-o.io/)
@@ -287,9 +289,6 @@
 * [kube-fencing](https://github.com/kvaps/kube-fencing)
 * [KubeVirt](https://kubevirt.io/) - Building a virtualization API for Kubernetes
 * [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) - A framework for building Kubernetes APIs using custom resource definitions (CRDs)
-* Networking
-  * [Calico](https://www.tigera.io/projectCalico)
-  * [Cilium](https://cilium.io/)
 * [Kustomize](https://kustomize.io/) - A standalone tool to customize Kubernetes objects through a kustomization file
 * [Helm](https://helm.sh/) - The package manager for Kubernetes
 * Dashboard
@@ -322,18 +321,21 @@
 ## 250 - IaC, configuration management, and continuous delivery
 
 * Configuration management and infrastructure as code
-  * [idempotency](https://en.wikipedia.org/wiki/Idempotence)
-  * [Ansible](https://www.ansible.com/)
-  * [Hashicorp Packer](https://packer.io/)
-  * [cloud-init](https://cloud-init.io/)
-  * [Hashicorp Terraform](https://www.terraform.io/)
-    * [GitLab-managed Terraform state](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html)
-    * [tf.libsonnet](https://docs.tflibsonnet.com/)
-    * [terraform-docs](https://terraform-docs.io/)
-    * [Terraformer](https://github.com/GoogleCloudPlatform/terraformer)
-    * [Atrantis (reference)](https://www.runatlantis.io/)
+  * [Ansible](https://www.ansible.com/) - An open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes
+  * [Hashicorp Packer](https://packer.io/) - A tool for creating identical machine images for multiple platforms from a single source configuration
+  * [cloud-init](https://cloud-init.io/) - The standard for customising cloud instances
+  * [Hashicorp Terraform](https://www.terraform.io/) - An infrastructure as code tool that lets you build, change, and version infrastructure safely and efficiently
   * [OpenTofu](https://opentofu.org/) - A fork of Terraform
-  * [Serverless Framework](https://serverless.com/)
+  * TF/OpenTF ecosystem
+    * [Terraform/OpenTofu Provider: Core Functions](https://github.com/northwood-labs/terraform-provider-corefunc)
+    * [TerraGrant](https://terragrunt.gruntwork.io/) - A flexible orchestration tool that allows Infrastructure as Code to scale
+    * [TerraTest](https://terratest.gruntwork.io/) - A Go library that provides patterns and helper functions for testing infrastructure
+    * [Atmos](https://atmos.tools/) - A cloud architecture framework for native Terraform
+    * [GitLab-managed Terraform/OpenTofu state](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html)
+    * [tf.libsonnet](https://docs.tflibsonnet.com/) - A collection of Jsonnet libraries for generating Terraform code
+    * [terraform-docs](https://terraform-docs.io/) - Generate Terraform modules documentation in various formats
+    * [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - CLI tool to generate terraform files from existing infrastructure
+    * [Atrantis (reference)](https://www.runatlantis.io/) - Terraform Pull Request Automation
   * [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
   * [AWS CDK](https://aws.amazon.com/cdk/)
   * [AWS SAM](https://aws.amazon.com/serverless/sam/)

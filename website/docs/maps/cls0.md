@@ -161,7 +161,7 @@
     * [GFM (GitHub Flavored Markdown)](https://github.github.com/gfm/)
       * [github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
     * [markdownlint](https://github.com/DavidAnson/markdownlint)
-    * [charm_Glow](https://github.com/charmbracelet/glow) - A terminal based markdown reader
+    * [Glow](https://github.com/charmbracelet/glow) - A terminal based markdown reader
     * [Grip](https://github.com/joeyespo/grip) - GitHub Readme Instant Preview
     * [markmap](https://markmap.js.org/) - A combination of Markdown and mindmap
     * [Marp](https://marp.app/) - Markdown Presentation Ecosystem
@@ -376,7 +376,9 @@
   * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
   * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
   * [Determinant](https://en.wikipedia.org/wiki/Determinant)
-* [Function (Map)](https://en.wikipedia.org/wiki/Function_(mathematics))
+* [Function](https://en.wikipedia.org/wiki/Function_(mathematics))
+  * [Map](https://en.wikipedia.org/wiki/Map_(mathematics))
+    * [Idempotence](https://en.wikipedia.org/wiki/Idempotence)
   * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/)
     * [Notations](https://dlmf.nist.gov/not/)
 * [Differential calculus](https://en.wikipedia.org/wiki/Differential_calculus)

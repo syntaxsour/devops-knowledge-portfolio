@@ -75,11 +75,18 @@
   * Techniques: The specific methods or ways adversaries achieve their tactical objectives.
   * Procedures: The specific implementations or variations of techniques that adversaries utilize in their operations.
 * [SLSA framework](https://slsa.dev/) - A specification for describing and incrementally improving supply chain security
+* [in-toto](https://in-toto.io/) - A framework to secure the integrity of software supply chains
 * [Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf) - A set of fundamental, sound, and secure software development practices based on established secure software development practice documents
 * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
 * [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
 * [Threat modeling](https://en.wikipedia.org/wiki/Threat_model)
   * [STRIDE model](https://en.wikipedia.org/wiki/STRIDE_%28security%29)
+    * Spoofing
+    * Tampering
+    * Repudiation
+    * Information disclosure
+    * Denial of service
+    * Elevation of privilege
   * [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
 * [STIX (Structured Threat Information Expression)](https://oasis-open.github.io/cti-documentation/stix/intro) - A language and serialization format used to exchange cyber threat intelligence (CTI)
 * [Business email compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec)
@@ -144,21 +151,21 @@
     * [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment)
   * [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
 * [TLS (Transport Layer Security)](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-  * [OpenSSL](https://www.openssl.org/)
-  * [stunnnel](https://www.stunnel.org/)
+  * [OpenSSL library](https://openssl-library.org/) - A robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication
+  * [stunnnel](https://www.stunnel.org/) - A proxy designed to add TLS encryption functionality to existing clients and servers without any changes in the programs' code
 * [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell)
-  * [OpenSSH](https://www.openssh.com/)
+  * [OpenSSH](https://www.openssh.com/) - The premier connectivity tool for remote login with the SSH protocol
   * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - A free implementation of SSH and Telnet for Windows and Unix platforms
-  * [keychain](https://www.funtoo.org/Funtoo:Keychain)
-  * [Python Paramiko](https://www.paramiko.org/) - A pure-Python implementation of the SSHv2 protocol
+  * [keychain](https://www.funtoo.org/Funtoo:Keychain) - helps you to manage SSH and GPG keys in a convenient and secure manner
   * [Python Fablic](https://www.fabfile.org/) - A high level Python library designed to execute shell commands remotely over SSH
-  * [Go gliderlabs/ssh](https://pkg.go.dev/github.com/gliderlabs/ssh)
-  * [charm_Wish](https://github.com/charmbracelet/wish) - An ssh app library
-  * [charm_Wishlist](https://github.com/charmbracelet/wishlist) - The ssh directory
+    * [Python Paramiko](https://www.paramiko.org/) - A pure-Python implementation of the SSHv2 protocol
+  * [Go gliderlabs/ssh](https://pkg.go.dev/github.com/gliderlabs/ssh) - wraps the crypto/ssh package with a higher-level API for building SSH servers
+  * [Wish](https://github.com/charmbracelet/wish) - An ssh app library
+  * [Wishlist](https://github.com/charmbracelet/wishlist) - The ssh directory
 * [PGP (Pretty Good Privacy)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)
-  * [OpenPGP](https://www.openpgp.org/)
+  * [OpenPGP](https://www.openpgp.org/) - A non-proprietary format for authenticating or encrypting data, using public key cryptography
     * [keys.openpgp.org](https://keys.openpgp.org/about) - A public service for the distribution and discovery of OpenPGP-compatible keys
-  * [GnuPG](https://gnupg.org/)
+  * [GnuPG](https://gnupg.org/) - A complete and free implementation of the OpenPGP standard
   * [Gpg4win](https://www.gpg4win.org/)
 * [TOTP (Time-Based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password)
   * [PyOTP](https://pyauth.github.io/pyotp/) - The Python One-Time Password Library

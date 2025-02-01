@@ -14,12 +14,9 @@
 * [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming))
 * [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science))
 * [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science))
-* [Data type](https://en.wikipedia.org/wiki/Data_type) (-> see also Class 190)
+* [Data type](https://en.wikipedia.org/wiki/Data_type)
   * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type)
-  * [String](https://en.wikipedia.org/wiki/String_(computer_science))
-  * [Array](https://en.wikipedia.org/wiki/Array_(data_type))
-    * [Array slicing](https://en.wikipedia.org/wiki/Array_slicing)
-  * [Associative array](https://en.wikipedia.org/wiki/Associative_array)
+  * Abstract data types (-> see Class 190)
 * [Generic programming](https://en.wikipedia.org/wiki/Generic_programming)
 * [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science))
   * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer)
@@ -99,7 +96,7 @@
   * [GNU parallel](https://www.gnu.org/software/parallel/) - A shell tool for executing jobs in parallel using one or more computers
   * [rlwrap](https://github.com/hanslub42/rlwrap) - A readline wrapper
   * [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command
-  * [charm_mods](https://github.com/charmbracelet/mods) - AI on the command line
+  * [Mods](https://github.com/charmbracelet/mods) - AI on the command line
 * [Terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator)
   * [Terminator](https://gnome-terminator.org)
   * [Kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator
@@ -166,7 +163,6 @@
   * [Prettier](https://prettier.io/)
 * Source code management
   * [Distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control)
-  * [Markle tree](https://en.wikipedia.org/wiki/Merkle_tree)
   * [Git](https://git-scm.com/)
     * local repository, remote repository
     * branch, tag, worktree
@@ -187,7 +183,7 @@
     * [Gitea](https://about.gitea.com/)
     * [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/)
     * [GitHub](https://github.com/)
-    * [charm_Soft Serve](https://github.com/charmbracelet/soft-serve) - a self-hostable Git server
+    * [Soft Serve](https://github.com/charmbracelet/soft-serve) - a self-hostable Git server
   * Conventions
     * [keep a changelog](https://keepachangelog.com/)
     * [Conventional Commits](https://www.conventionalcommits.org/)
@@ -573,16 +569,18 @@
   * [Javadoc](https://www.oracle.com/java/technologies/javase/javadoc-tool.html)
 * Package dependency management
   * [npm CLI](https://www.npmjs.com/)
-  * [yarn](https://yarnpkg.com/)
-  * [pnpm](https://pnpm.io)
-  * [pip](https://pip.pypa.io/)
+  * [yarn](https://yarnpkg.com/) - A package manager that doubles down as project manager
+  * [pNPm](https://pnpm.io) - Fast, disk space efficient package manager
+  * [dpmland](https://dpmland.deno.dev/) - Simple, modern and easy way to manage the Deno modules and dependencies
+  * [Bun package manager](https://bun.sh/package-manager)
+  * [pip](https://pip.pypa.io/) - The package installer for Python
   * [poetry](https://python-poetry.org/) - A tool for dependency management and packaging in Python
   * [PDM](https://pdm-project.org/en/latest/) - A modern Python package and dependency manager supporting the latest PEP standards
-  * [Go mod](https://pkg.go.dev/cmd/go)
-  * [cpanminus](https://metacpan.org/pod/App::cpanminus)
-  * [bpkg](https://bpkg.sh/bpkg/)
-  * [Conan](https://conan.io/)
-  * [Cargo](https://doc.rust-lang.org/stable/cargo/)
+  * [go mod](https://pkg.go.dev/cmd/go) - A tool for managing Go source code
+  * [cpanminus](https://metacpan.org/pod/App::cpanminus) - Get, unpack, build and install modules from CPAN
+  * [bpkg](https://bpkg.sh/bpkg/) - A lightweight bash package manager
+  * [Conan](https://conan.io/) - A dependency and package manager for C and C++ languages
+  * [Cargo](https://doc.rust-lang.org/stable/cargo/) - The Rust package manager
   * [LuaRocks CLI](https://luarocks.org/) - The package manager for Lua modules
   * [RubyGems CLI](https://rubygems.org/)
   * [Bundler](https://bundler.io/) - provides a consistent environment for Ruby projects
@@ -591,12 +589,14 @@
   * [Gradle](https://gradle.org/)
   * [Maven](https://maven.apache.org/)
 * Virtual environment
-  * [Python venv](https://docs.python.org/3/library/venv.html)
-  * [nodeenv](https://ekalinin.github.io/nodeenv/)
-  * [nvm](https://github.com/nvm-sh/nvm)
+  * [Python venv](https://docs.python.org/3/library/venv.html) - Creation of virtual environments
+  * [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management
+  * [nodeenv](https://ekalinin.github.io/nodeenv/) - A tool to create isolated node.js environments
+  * [nvm](https://github.com/nvm-sh/nvm) - POSIX-compliant bash script to manage multiple active node.js versions
   * [nvm-windows](https://github.com/coreybutler/nvm-windows)
   * [perlbrew](https://perlbrew.pl/)
   * [asdf](https://asdf-vm.com/) - A tool version manager
+  * [tenv](https://github.com/tofuutils/tenv) - A versatile version manager for OpenTofu, Terraform, Terragrunt and Atmos
 
 ## 170 - CLI/TUI development
 
@@ -604,7 +604,7 @@
   * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)
   * [tput](https://www.man7.org/linux/man-pages/man1/tput.1.html)
   * [dialog](https://invisible-island.net/dialog/dialog.html)
-  * [charm_Gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts
+  * [Gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts
   * [FIGlet](http://www.figlet.org/)
   * [lolcat](https://github.com/busyloop/lolcat)
   * [cfonts](https://github.com/dominikwilkowski/cfonts)
@@ -628,8 +628,8 @@
   * [FIGLet.js](https://github.com/patorjk/figlet.js)
   * [gradient-string](https://github.com/bokub/gradient-string)
 * Go
-  * [charm_Bubble Tea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework
-  * [charm_Huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts
+  * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework
+  * [Huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts
   * [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package
   * [color](https://github.com/fatih/color)
   * [cobra](https://cobra.dev/) - A Framework for Modern CLI Apps in Go
@@ -694,17 +694,26 @@
   * [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
   * [Tarjan's strongly connected components algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm)
   * [Cuckoo hashing](https://en.wikipedia.org/wiki/Cuckoo_hashing)
+* [Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)
+  * [String](https://en.wikipedia.org/wiki/String_(computer_science))
+  * [List](https://en.wikipedia.org/wiki/List_(abstract_data_type))
+  * [Array](https://en.wikipedia.org/wiki/Array_(data_type))
+    * [Array slicing](https://en.wikipedia.org/wiki/Array_slicing)
+  * [Associative array](https://en.wikipedia.org/wiki/Associative_array)
+  * [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
+  * [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
+  * [Tree](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
+  * [Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
 * [Data structure](https://en.wikipedia.org/wiki/Data_structure)
   * [Hash table](https://en.wikipedia.org/wiki/Hash_table)
   * [Linked data structure](https://en.wikipedia.org/wiki/Linked_data_structure)
-  * [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-  * [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
   * [Persistent structure](https://en.wikipedia.org/wiki/Persistent_data_structure)
-  * [Tree](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
+  * Tree-based
     * [Search tree](https://en.wikipedia.org/wiki/Search_tree)
+    * [Markle tree](https://en.wikipedia.org/wiki/Merkle_tree)
     * [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     * [Trie](https://en.wikipedia.org/wiki/Trie)
     * [Fenwick tree](https://en.wikipedia.org/wiki/Fenwick_tree)
-  * [Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
+  * Graph-based
     * [Directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 * [NIST Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
