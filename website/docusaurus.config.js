@@ -116,7 +116,7 @@ const config = {
             */],
           },
         ],
-        copyright: `Copyleft ${new Date().getFullYear()} Jim Yoshida. Built with Docusaurus.`,
+        copyright: `This material is licensed under the CC-BY-SA-4.0. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

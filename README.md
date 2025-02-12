@@ -44,12 +44,9 @@ Thanks to today's LLMs trained by useful open documents and texts, you will be a
 
 ## Backlogs
 
-- Build the web site and host it
-- Reconsider about the license
 - Make a document of how to use the Makefile
 
 ## License
 
-This documentation is licensed under the GNU Free Documentation License (GFDL).
-
-The GFDL is a copyleft license that allows anyone to use, modify, and distribute the documents in this repository. It ensures that derivative works also remain freely licensed by requiring that any modifications or adaptations to the documents be licensed under the GFDL as well.
+This material is licensed under the Creative Commons Attribution-ShareAlike 4.0 International
+except for the source code portions, which are licensed under the MIT License.

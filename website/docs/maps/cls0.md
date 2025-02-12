@@ -116,14 +116,16 @@
   * ISO/IEC 15504: Information technology — Process assessment
   * ISO/IEC 20000: Information technology — Service management
   * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
-* [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria)
-  * Specific: Targeting a particular area for improvement
-  * Measurable: Quantifying, or at least suggesting, an indicator of progress
-  * Assignable: Defining responsibility clearly
-  * Realistic: Outlining attainable results with available resources
-  * Time-related: Including a timeline for expected results
-* [Objectives and Key Results](https://en.wikipedia.org/wiki/Objectives_and_key_results)
-* [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score)
+* Goal setting
+  * [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria)
+    * Specific: Targeting a particular area for improvement
+    * Measurable: Quantifying, or at least suggesting, an indicator of progress
+    * Assignable: Defining responsibility clearly
+    * Realistic: Outlining attainable results with available resources
+    * Time-related: Including a timeline for expected results
+  * [OKRs](https://en.wikipedia.org/wiki/Objectives_and_key_results)
+  * [KPIs](https://en.wikipedia.org/wiki/Performance_indicator)
+    * [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score)
 * [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
   * Responsible, Accountable, Consulted, Informed
 * [Three-point estimation](https://en.wikipedia.org/wiki/Three-point_estimation)
@@ -289,6 +291,7 @@
   * [PyPI](https://pypi.org/) - A repository of software for the Python programming language
   * [RubyGems.org](https://rubygems.org/) - The Ruby community’s gem hosting service
   * [npm Registry](https://www.npmjs.com/) - The world's largest software registry
+  * [JSR](https://jsr.io/) - The open-source package registry for modern JavaScript and TypeScript
   * [pkg.go.dev](https://pkg.go.dev/) - Your source for information about Go packages and modules
   * [crates.io](https://crates.io/) - The Rust community’s crate registry
   * [LuaRocks](https://luarocks.org/) - The package manager for Lua modules

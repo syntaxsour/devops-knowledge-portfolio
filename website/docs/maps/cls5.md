@@ -236,7 +236,7 @@
   * [Recurrent neural network](https://en.wikipedia.org/wiki/Recurrent_neural_network)
     * [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)
   * [Attention](https://en.wikipedia.org/wiki/Attention_(machine_learning))
-  * [Transformer](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+    * [Transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))
 * Frameworks
   * [TensorFlow](https://www.tensorflow.org/)
     * [TFDS](https://www.tensorflow.org/datasets)

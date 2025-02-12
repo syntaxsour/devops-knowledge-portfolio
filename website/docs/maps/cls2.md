@@ -127,14 +127,14 @@
   * [traceroute](https://traceroute.sourceforge.net/)
   * [NetworkManager](https://networkmanager.dev/)
   * [Ubuntu NetPlan](https://netplan.io/)
-  * [tcpdump](https://www.tcpdump.org/)
-  * [wireshark](https://www.wireshark.org/)
-  * [netcat](https://nc110.sourceforge.io/)
-  * [nmap](https://nmap.org/)
+  * [tcpdump](https://www.tcpdump.org/) - A powerful command-line packet analyzer
+  * [wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer
+  * [nmap](https://nmap.org/) - An open source tool for network exploration and security auditing
+    * [ncat](https://nmap.org/ncat/) - A feature-packed networking utility which reads and writes data across networks from the command line
   * [SOCKS proxy](https://en.wikipedia.org/wiki/SOCKS)
-    * [dante](https://www.inet.no/dante/)
+    * [dante](https://www.inet.no/dante/) - consists of a SOCKS server and a SOCKS client
     * [tun2socks](https://github.com/xjasonlyu/tun2socks)
-    * [proxychains](https://github.com/haad/proxychains)
+    * [proxychains](https://github.com/haad/proxychains) - A tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy
 * Modern Unix tools
   * [lsd](https://github.com/Peltoche/lsd)
   * [eza](https://eza.rocks/)

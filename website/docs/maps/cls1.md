@@ -520,6 +520,7 @@
 * [Runtime system](https://en.wikipedia.org/wiki/Runtime_system)
   * Javascript
     * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
+      * [libuv](https://libuv.org/) - A multi-platform support library with a focus on asynchronous I/O
       * [PM2](https://pm2.keymetrics.io/) - a daemon process manager that will help you manage and keep your application online
     * [Deno](https://deno.land/) - The open-source runtime for TypeScript and JavaScript
     * [Bun](https://bun.sh/) - An all-in-one toolkit for JavaScript and TypeScript apps
