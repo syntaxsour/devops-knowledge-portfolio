@@ -434,31 +434,33 @@
 
 * Debuggers and loggers
   * Bash
-    * [BASH Debugger](https://bashdb.sourceforge.net/)
     * [VSCode Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug)
-    * [log4sh](https://github.com/kward/log4sh)
-    * [logger](https://man7.org/linux/man-pages/man1/logger.1.html)
+      * [BASH Debugger](https://bashdb.sourceforge.net/)
+    * [log4sh](https://github.com/kward/log4sh) - An advanced logging framework for shell scripts
+    * [logger](https://man7.org/linux/man-pages/man1/logger.1.html) - enter messages into the system log
   * Python
-    * [debugpy](https://github.com/microsoft/debugpy/)
     * [VSCode Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+      * [debugpy](https://github.com/microsoft/debugpy/) - An implementation of the Debug Adapter Protocol for Python 3
     * [Python logging](https://docs.python.org/3/library/logging.html)
+    * [loguru](https://github.com/Delgan/loguru) - A library which aims to bring enjoyable logging in Python
   * Node.js
     * [VSCode built-in debugger](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
-    * [Node.js built-in inspector](https://nodejs.org/en/learn/getting-started/debugging)
-    * [bunyan](https://github.com/trentm/node-bunyan)
-    * [winston](https://github.com/winstonjs/winston)
-    * [debug](https://github.com/debug-js/debug)
+      * [Node.js built-in inspector](https://nodejs.org/en/learn/getting-started/debugging)
+    * [bunyan](https://github.com/trentm/node-bunyan) - A simple and fast JSON logging library for node.js services
+    * [winston](https://github.com/winstonjs/winston) - A logger for just about everything
+    * [debug](https://github.com/debug-js/debug) - A tiny JavaScript debugging utility modelled after Node.js core's debugging technique
   * Go
-    * [Delve](https://github.com/go-delve/delve)
     * [VSCode Go extension](https://marketplace.visualstudio.com/items?itemName=golang.Go)
+      * [Delve](https://github.com/go-delve/delve) - A debugger for the Go programming language
     * [Go log](https://pkg.go.dev/log)
-    * [zap](https://pkg.go.dev/go.uber.org/zap)
-    * [Logrus](https://github.com/sirupsen/logrus)
-  * Perl
-    * [Devel::Trepan](https://metacpan.org/pod/Devel::Trepan) - A modular gdb-like Perl debugger
-    * [log4perl](https://metacpan.org/pod/Log::Log4perl)
-  * C
+    * [zap](https://github.com/uber-go/zap/) - Blazing fast, structured, leveled logging in Go
+    * [Logrus](https://github.com/sirupsen/logrus) - A structured logger for Go (golang), completely API compatible with the standard library logger
+  * Others
     * [GDB](https://www.gnu.org/software/gdb/) - The GNU Project debugger
+    * [log4j](https://logging.apache.org/log4j/2.x/index.html) - A versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist the deployment for various use cases
+    * [Devel::Trepan](https://metacpan.org/pod/Devel::Trepan) - A modular gdb-like Perl debugger
+    * [log4perl](https://metacpan.org/pod/Log::Log4perl) - Log4j implementation for Perl
+    * [log4net](https://logging.apache.org/log4net/) - A port of the excellent Apache log4j framework to the Microsoft .NET runtime
 * Test frameworks
   * [test case](https://en.wikipedia.org/wiki/Test_case)
   * [test double](https://en.wikipedia.org/wiki/Test_double)

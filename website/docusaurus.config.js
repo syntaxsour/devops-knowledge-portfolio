@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Digital Skill Bird View',
+  title: 'DX and DevOps Landscape',
   tagline: 'Work in progress',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://digital-skill-bird-view-5b09aa.gitlab.io/',
+  url: 'https://dx-devops-landscape-5b09aa.gitlab.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jimyoshida', // Usually your GitHub org/user name.
-  projectName: 'digital-skill-bird-view', // Usually your repo name.
+  projectName: 'dx-devops-landscape', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -71,7 +71,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/jimyoshida/digital-skill-bird-view',
+            href: 'https://github.com/jimyoshida/dx-devops-landscape',
             label: 'GitHub',
             position: 'right',
           },

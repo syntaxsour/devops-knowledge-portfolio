@@ -428,17 +428,17 @@
 
 * Data shipping
   * [Prometheus exporters](https://prometheus.io/docs/instrumenting/exporters/)
-    * [node-exporter](https://prometheus.io/docs/guides/node-exporter/)
-    * [blackbox-exporter](https://github.com/prometheus/blackbox_exporter)
-  * [Promtail agent](https://grafana.com/docs/loki/latest/clients/promtail/)
-  * [Fluent Bit](https://fluentbit.io/)
-  * [Fluentd](https://www.fluentd.org/)
-  * [Filebeat](https://www.elastic.co/beats/filebeat)
-  * [Logstash](https://www.elastic.co/logstash)
-  * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
-  * [Metricbeat](https://www.elastic.co/beats/metricbeat)
-  * [OpenTelemetry](https://opentelemetry.io/)
-  * [Micrometer](https://micrometer.io/) - a metrics instrumentation library for JVM-based applications
+    * [node-exporter](https://prometheus.io/docs/guides/node-exporter/) - exposes a wide variety of hardware- and kernel-related metrics
+    * [blackbox-exporter](https://github.com/prometheus/blackbox_exporter) - allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP, ICMP and gRPC
+  * [OpenTelemetry](https://opentelemetry.io/) - A vendor-neutral open source Observability framework for instrumenting, generating, collecting, and exporting telemetry data such as traces, metrics, and logs
+  * [Grafana Alloy](https://grafana.com/oss/alloy-opentelemetry-collector/) - An open source OpenTelemetry collector with built-in Prometheus pipelines and support for metrics, logs, traces, and profiles
+  * [Fluent Bit](https://fluentbit.io/) - A super fast, lightweight, and highly scalable logging, metrics, and traces processor and forwarder
+  * [Fluentd](https://www.fluentd.org/) - An open source data collector, which lets you unify the data collection and consumption for a better use and understanding of data
+  * [Filebeat](https://www.elastic.co/beats/filebeat) - A lightweight shipper for forwarding and centralizing log data
+  * [Logstash](https://www.elastic.co/logstash) - An open source server-side data processing pipeline that ingests data from a multitude of sources, transforms it, and then sends it to your favorite "stash."
+  * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) - An open source server agent that helps you collect metrics from your stacks, sensors, and systems
+  * [Metricbeat](https://www.elastic.co/beats/metricbeat) - A lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server
+  * [Micrometer](https://micrometer.io/) - A metrics instrumentation library for JVM-based applications
   * [rsyslog](https://www.rsyslog.com/) - The rocket-fast system for log processing
   * IaaS-specific
     * [Azure Monitor Agent](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview)
